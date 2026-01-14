@@ -2,13 +2,29 @@ issus: ベースの作成 2026/01/03~
 
   issus: 4班勤務体型関数作成 2026/01/03~end(shifts/shift_calc)
   issus: 4勤務体制CSVフォーマット出力(shifts/make_month_csv) 2026/01/03~end
-    issus: 4班出勤人数入力(libreoffice .csv)2026/01/03~
+    issus: 4班出勤人数入力(libreoffice .csv)2026/01/03~end 
     -----------------------------------------------------------------------
     issus: 各甲、乙、丙の不足人数出力(shifts/month_shift)2026/01/03~end
-    issus: 班別で勤務体系に合わせた不足人数出力(shifts/team_shift)2026-01-04
+    issus: 班別で勤務体系に合わせた不足人数出力(shifts/team_shift)2026-01-04...end 
     ------------------------------------------------------------------------
-    issus: make_month_csvに各班の有休者、早出不可、残業不可を追加
-    issus: 
+    issus: make_month_csvに各班の有休者、早出不可、残業不可を追加...済
+    issus: skill.csvを作成。総勢メンバーネーム出勤者、有休者、早出不可者、残業不可者の出力(deta/member.py)...済
+    issus: 各team別の出勤者や有休者、、、、残業不可者の出力2026-01-07~2026-01-09(deta/team_member.py)...済
+    ------------------------------------------------------------------------ 
+    issus: .csvに専門スキル(shovel,wharf,control)の不足数を追加。(make_month_csv.py)2026-1-9~end 
+    issus: 各ファイル()に専門スキル不足数を出力(shifts/month_shift.py,shifts/team_shift.py)2026-1-11~end 
+      issus: shifts/month_shifts.py,shifts/team_shift.pyの確認~end 
+
+    issus: skill.csvの専門スキルを抽出し各不足メンバー数を出力(deta/member.py,deta/team_member.py)2026-1-11~end 
+      issus: deta/member.py の出力が少し違う。日の専門スキル不足出力になっているのでshiftの専門スキル不足に変更したい~end 
+    ------------------------------------------------------------------------
+  
+issus: GUIでCSV入力~
+  issus: 過勤務管理表(overtime.csv)作成
+
+
+    issus: 時間(7:00~15:00,15:00~23:00,23:00~7:00)
+
 
 
 
